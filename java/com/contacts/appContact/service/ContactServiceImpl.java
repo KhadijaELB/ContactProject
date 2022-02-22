@@ -55,7 +55,7 @@ public class ContactServiceImpl implements ContactService {
     		 cmp.add(companyAdresse);
     		 contactDto.setCompanies(cmp);
     		 addContact(contactDto);
-    		 return "Contact with is added to the company located in : " + companyAdresse + "successfully!";
+    		 return "Contact is added to the company located in : " + companyAdresse + "successfully!";
     	 }
     	return null;
     	
